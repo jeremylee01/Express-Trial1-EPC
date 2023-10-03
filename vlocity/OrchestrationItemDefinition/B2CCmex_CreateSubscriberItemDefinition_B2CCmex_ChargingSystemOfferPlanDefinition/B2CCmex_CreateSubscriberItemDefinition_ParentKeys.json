@@ -1,0 +1,7 @@
+[
+    "DataRaptor/SFI-OMCreateSubscriberDRBundle",
+    "DataRaptor/SFI-OMCreateSubscriberRequestItemDRBundle",
+    "ManualQueue/B2CCmex_ManualTaskQueue",
+    "OrchestrationPlanDefinition/B2CCmex_ChargingSystemOfferPlanDefinition",
+    "System/MatrixxSystem"
+]

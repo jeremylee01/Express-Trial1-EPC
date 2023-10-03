@@ -1,0 +1,13 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__DisplayedFields__c": "",
+    "%vlocity_namespace%__FilterFields__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "1d208e2e-e085-5847-907b-17ed4e809e2b",
+    "%vlocity_namespace%__LastAssignedToUserId__c": "",
+    "%vlocity_namespace%__NotificationEmailId__c": "",
+    "%vlocity_namespace%__QueueType__c": "None",
+    "Name": "B2CCmex_ManualTaskQueue",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__ManualQueue__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__ManualQueue__c/B2CCmex_ManualTaskQueue"
+}

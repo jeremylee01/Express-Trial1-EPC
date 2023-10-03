@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/B2CCmex_CreateSubscriberItemDefinition_B2CCmex_ChargingSystemOfferPlanDefinition",
+    "OrchestrationItemDefinition/B2CCmex_SimCardAddChargingSystemItemDefinition_B2CCmex_SimCardChargingSystemPlanDefinition",
+    "OrchestrationPlanDefinition/B2CCmex_SimCardChargingSystemPlanDefinition"
+]

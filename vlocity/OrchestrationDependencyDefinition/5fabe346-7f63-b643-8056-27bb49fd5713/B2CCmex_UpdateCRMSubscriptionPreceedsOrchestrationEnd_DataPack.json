@@ -1,0 +1,29 @@
+{
+    "%vlocity_namespace%__DependencyItemDefinitionId__c": {
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "B2CCmex_CommenceOrchestrationPlanDefinition",
+        "Name": "B2CCmex_OrchestrationEndItemDefinition",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/B2CCmex_OrchestrationEndItemDefinition/%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_CommenceOrchestrationPlanDefinition",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationItemDefinition__c"
+    },
+    "%vlocity_namespace%__DependencyPlanDefinitionId__c": {
+        "Name": "B2CCmex_CommenceOrchestrationPlanDefinition",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_CommenceOrchestrationPlanDefinition",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+    },
+    "%vlocity_namespace%__DependencyType__c": "Should Be Processed Before",
+    "%vlocity_namespace%__GlobalKey__c": "5fabe346-7f63-b643-8056-27bb49fd5713",
+    "%vlocity_namespace%__OrchestrationItemDefinitionId__c": {
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "B2CCmex_UpdateCRMPlanDefinition",
+        "Name": "B2CCmex_UpdateCRMSubscriptionItemDefinition",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/B2CCmex_UpdateCRMSubscriptionItemDefinition/%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_UpdateCRMPlanDefinition",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationItemDefinition__c"
+    },
+    "%vlocity_namespace%__Scope__c": "Global",
+    "Name": "B2CCmex_UpdateCRMSubscriptionPreceedsOrchestrationEnd",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationDependencyDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationDependencyDefinition__c/5fabe346-7f63-b643-8056-27bb49fd5713"
+}

@@ -1,0 +1,279 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "TV-Equipment-PS_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "B2CCmex_ATTR_CPE_DELIVERY_OPTION": null,
+        "B2CCmex_ATTR_CPE_PAYMENT_TYPE": null,
+        "B2CCmex_ATTR_HASDISCOUNT_CHAR": true,
+        "B2CCmex_ATTR_TANGIBLE_CHAR": true
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "B2CCmex_ATC_CHARACTERISTIC",
+                "Name": "ATC_CHARACTERISTIC",
+                "displaySequence": 103,
+                "id": "a0YDn000000kfbPMAQ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0ZDn000000QPyqMAG",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_TANGIBLE_CHAR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 16,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotTranslatable": false,
+                            "label": "Tangible",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": true,
+                                    "defaultValue": true,
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0ZDn000000QPypMAG",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_HASDISCOUNT_CHAR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 27,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotTranslatable": false,
+                            "label": "HasDiscount",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": true,
+                                    "defaultValue": true,
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            },
+            {
+                "Code__c": "B2CCmex_ATTRIBUTE_CATEGORY_CPE_DETAILS",
+                "Name": "ATC_CPE_DETAILS",
+                "displaySequence": 6230,
+                "id": "a0YDn000000kfbRMAQ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0ZDn000000QPynMAG",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_CPE_DELIVERY_OPTION",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "CPE Delivery Option",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "284fa3c9-3093-b467-a43b-0da1b1b25694",
+                                    "label": "Pick-Up",
+                                    "name": "284fa3c9-3093-b467-a43b-0da1b1b25694",
+                                    "readonly": false,
+                                    "value": "Pick-Up"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "2be1629e-34ca-a443-e99e-c305c34092c5",
+                                    "label": "Technician",
+                                    "name": "2be1629e-34ca-a443-e99e-c305c34092c5",
+                                    "readonly": false,
+                                    "value": "Technician"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "4e8b4b82-b35d-d836-2e31-537366aff994",
+                                    "label": "Post",
+                                    "name": "4e8b4b82-b35d-d836-2e31-537366aff994",
+                                    "readonly": false,
+                                    "value": "Post"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0ZDn000000QPyoMAG",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_CPE_PAYMENT_TYPE",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "CPE Payment Type",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "4bf89255-c846-1856-3ec0-33123aa1435a",
+                                    "label": "Buy",
+                                    "name": "4bf89255-c846-1856-3ec0-33123aa1435a",
+                                    "readonly": false,
+                                    "value": "Buy"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "4f8fed18-715c-e777-8ace-9de39f254062",
+                                    "label": "Rent",
+                                    "name": "4f8fed18-715c-e777-8ace-9de39f254062",
+                                    "readonly": false,
+                                    "value": "Rent"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2021-09-30",
+    "%vlocity_namespace%__EndDate__c": "2040-10-30",
+    "%vlocity_namespace%__EndOfLifeDate__c": "2095-10-26T18:30:00.000Z",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2021-09-30T18:30:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "46f86c32-7059-40e4-8416-6fdeb825eb06",
+    "%vlocity_namespace%__GlobalKey__c": "2ebfe20c-5129-3867-259e-b4f0c40c39aa",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "Released",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "eaaf3f3f08c4d5bbe9bfb9ef96aa9bc6",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/eaaf3f3f08c4d5bbe9bfb9ef96aa9bc6",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "TV CPE Object Type",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "TV-Equipment-PS_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "2040-10-30T18:30:00.000Z",
+    "%vlocity_namespace%__SellingStartDate__c": "2021-09-30T18:30:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "Simple",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "None",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "TV",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "2042-10-25T18:30:00.000Z",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "2021-09-30T18:30:00.000Z",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "TV Equipment PS",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "TV",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "TV Equipment PS",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "ProductCode": "B2CCmex_TV_EQUIPMENT_PS",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/2ebfe20c-5129-3867-259e-b4f0c40c39aa"
+}

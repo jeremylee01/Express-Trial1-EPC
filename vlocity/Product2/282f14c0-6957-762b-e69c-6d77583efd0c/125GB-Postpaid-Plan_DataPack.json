@@ -1,0 +1,477 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "125GB-Postpaid-Plan_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "B2CCmex_ATTR_DATA_CHAR": "125 GB",
+        "B2CCmex_ATTR_HASDISCOUNT_CHAR": false,
+        "B2CCmex_ATTR_MMS": 500,
+        "B2CCmex_ATTR_PAYMENT_OPTION_CHAR": "Postpaid",
+        "B2CCmex_ATTR_SMS_CHAR": "Unlimited",
+        "B2CCmex_ATTR_TANGIBLE_CHAR": false,
+        "B2CCmex_ATTR_VOICE_CHAR": "Unlimited Voice",
+        "B2CCmex_RATING_TIER_CHAR": "High"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "B2CCmex_ATC_CHARACTERISTIC",
+                "Name": "ATC_CHARACTERISTIC",
+                "displaySequence": 103,
+                "id": "a0YDn000000kfbPMAQ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0ZDn000000QPyUMAW",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_PAYMENT_OPTION_CHAR",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 12,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Payment Option",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "090a4118-30b7-09ae-516b-443f8b9a4da9",
+                                    "label": "Postpaid",
+                                    "name": "090a4118-30b7-09ae-516b-443f8b9a4da9",
+                                    "readonly": true,
+                                    "value": "Postpaid"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "0f15dd23-30c6-8421-28f9-766032801761",
+                                    "label": "Prepaid",
+                                    "name": "0f15dd23-30c6-8421-28f9-766032801761",
+                                    "readonly": true,
+                                    "value": "Prepaid"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "9796b455-a7ea-e804-8dae-3da0b8c282b7",
+                                    "label": "Hybrid",
+                                    "name": "9796b455-a7ea-e804-8dae-3da0b8c282b7",
+                                    "readonly": true,
+                                    "value": "Hybrid"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0ZDn000000QPyqMAG",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_TANGIBLE_CHAR",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 16,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotTranslatable": false,
+                            "label": "Tangible",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": false,
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0ZDn000000QPyTMAW",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_DATA_CHAR",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 26,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Data",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": "125 GB",
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0ZDn000000QPypMAG",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_HASDISCOUNT_CHAR",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 27,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotTranslatable": false,
+                            "label": "HasDiscount",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": false,
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0ZDn000000QPyVMAW",
+                            "cloneable": true,
+                            "code": "B2CCmex_RATING_TIER_CHAR",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 28,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Rating Tier",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "55f77e28-97a5-16b6-314a-1b4f063d40b3",
+                                    "label": "Low",
+                                    "name": "55f77e28-97a5-16b6-314a-1b4f063d40b3",
+                                    "readonly": true,
+                                    "value": "Low"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "82e63fb0-49e1-8a74-a82e-af4323cce1a3",
+                                    "label": "High",
+                                    "name": "82e63fb0-49e1-8a74-a82e-af4323cce1a3",
+                                    "readonly": true,
+                                    "value": "High"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "bc45541f-f9bf-18d4-a0d1-203290f24d56",
+                                    "label": "None",
+                                    "name": "bc45541f-f9bf-18d4-a0d1-203290f24d56",
+                                    "readonly": true,
+                                    "value": "None"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0ZDn000000QPyXMAW",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_VOICE_CHAR",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 28,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Voice",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": "Unlimited Voice",
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0ZDn000000QPyWMAW",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_SMS_CHAR",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 29,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "SMS",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": "Unlimited",
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0ZDn000000QPz2MAG",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_MMS",
+                            "dataType": "number",
+                            "disabled": true,
+                            "displaySequence": 31,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotTranslatable": false,
+                            "label": "MMS",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": 500,
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 8
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": [
+        {
+            "actions": {
+            },
+            "childCategories": [
+                {
+                    "actions": {
+                    },
+                    "childCategories": [
+                    ],
+                    "displaySequence": -1,
+                    "fields": {
+                    },
+                    "id": "a164U00000Av3lgQAB",
+                    "messages": [
+                    ],
+                    "name": "Postpaid Offers",
+                    "nameResult": {
+                    },
+                    "uiStates": {
+                    }
+                }
+            ],
+            "displaySequence": -1,
+            "fields": {
+            },
+            "id": "a164U00000Av3mUQAR",
+            "messages": [
+            ],
+            "name": "Mobile Offers",
+            "nameResult": {
+            },
+            "uiStates": {
+            }
+        },
+        {
+            "actions": {
+            },
+            "childCategories": [
+            ],
+            "displaySequence": -1,
+            "fields": {
+            },
+            "id": "a164U00000Av3mUQAR",
+            "messages": [
+            ],
+            "name": "Mobile Offers",
+            "nameResult": {
+            },
+            "uiStates": {
+            }
+        }
+    ],
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2022-04-01",
+    "%vlocity_namespace%__EndDate__c": "2040-01-01",
+    "%vlocity_namespace%__EndOfLifeDate__c": "2040-01-01T08:00:00.000Z",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2022-04-01T07:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "b01b25d0-4174-515f-c27b-cdaf6b680805",
+    "%vlocity_namespace%__GlobalKey__c": "282f14c0-6957-762b-e69c-6d77583efd0c",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "Released",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "125GB-Postpaid-Plan_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__ParentClassCode__c": "B2CCmex_POSTPAID_PLAN_CLASS",
+    "%vlocity_namespace%__ParentClassId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "424932d6-7437-03b5-f008-19bf2bd1eb79",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/424932d6-7437-03b5-f008-19bf2bd1eb79",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__PriceListEntry__c": "125GB-Postpaid-Plan_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "125GB-Postpaid-Plan_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "60bff44e-c60c-87fd-db4a-9dc02248f99d",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/60bff44e-c60c-87fd-db4a-9dc02248f99d",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductSpecName__c": "Postpaid Plan PS",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "2040-01-01T08:00:00.000Z",
+    "%vlocity_namespace%__SellingStartDate__c": "2022-04-01T07:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "Simple",
+    "%vlocity_namespace%__SpecificationType__c": "Offer",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "Postpaid",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Plan",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "2040-01-01T08:00:00.000Z",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "2022-04-01T07:00:00.000Z",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "Monthly Postpaid Plan with 125GB Data, Unlimited Text and Voice per month. Charges on additional usage will be applicable as per tariff.",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "Mobile",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "125GB Postpaid Plan",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "125GB-Postpaid-Plan_PricebookEntries.json",
+    "ProductCode": "B2CCmex_OFFERING_125GB_POSTPAID_OFFER",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "125GB Postpaid Plan",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "282f14c0-6957-762b-e69c-6d77583efd0c",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "282f14c0-6957-762b-e69c-6d77583efd0c",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/282f14c0-6957-762b-e69c-6d77583efd0c",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "B2CCmex_OFFERING_125GB_POSTPAID_OFFER",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/282f14c0-6957-762b-e69c-6d77583efd0c"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/282f14c0-6957-762b-e69c-6d77583efd0c"
+}

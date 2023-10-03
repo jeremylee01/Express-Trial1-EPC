@@ -1,0 +1,95 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d5c841da-3074-385a-9576-70d646ee2d27",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/d5c841da-3074-385a-9576-70d646ee2d27",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "5a5f9e0a-db38-d050-842c-f4c5ca46afa8",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_type\":\"Attribute\",\"source_attr_name\":\"ICCID\",\"source_attr_code\":\"B2CCmex_ATTR_ICCID_CHAR\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"ICCID\",\"destination_attr_code\":\"B2CCmex_ATTR_ICCID_TECH\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"IMSI\",\"source_attr_code\":\"B2CCmex_ATTR_IMSI_CHAR\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"IMSI\",\"destination_attr_code\":\"B2CCmex_ATTR_IMSI_TECH\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b4a50c3e-fce2-0d20-e6d2-ddb5da724904",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/b4a50c3e-fce2-0d20-e6d2-ddb5da724904",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "b4a50c3e-fce2-0d20-e6d2-ddb5da724904",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "B2CCmex_SIMCardtoSIMCardCFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/B2CCmex_SIMCardtoSIMCardCFS/Product2/b4a50c3e-fce2-0d20-e6d2-ddb5da724904"
+    },
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 10,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "496531bb-0d8e-9e35-168e-3de0c7ce8b8f",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/496531bb-0d8e-9e35-168e-3de0c7ce8b8f",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "6ea97416-c52c-4647-91dd-7aed4f3435dd",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_type\":\"Field\",\"source_field_name\":\"Order.ShippingAddress\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Shipping Address\",\"destination_attr_code\":\"B2CCmex_ATTR_SHIP_ADDRESS\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b4a50c3e-fce2-0d20-e6d2-ddb5da724904",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/b4a50c3e-fce2-0d20-e6d2-ddb5da724904",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "b4a50c3e-fce2-0d20-e6d2-ddb5da724904",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "B2CCmex_SIMCardtoShippingServiceCFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/B2CCmex_SIMCardtoShippingServiceCFS/Product2/b4a50c3e-fce2-0d20-e6d2-ddb5da724904"
+    },
+    {
+        "%vlocity_namespace%__ConditionData__c": "{\"name\":\"Parent Condition\",\"type\":\"AND\",\"singleconditions\":[{\"name\":\"Condition 1\",\"type\":\"SIMPLE\",\"left-side-type\":\"field-OrderItem\",\"left-side-datatype\":\"picklist\",\"left-side\":\"%vlocity_namespace%__Action__c\",\"op\":\"=\",\"right-side-type\":\"value\",\"right-side\":\"Add\"},{\"right-side\":\"\",\"right-side-type\":\"value\",\"op\":\"=\",\"left-side\":\"%vlocity_namespace%__SubAction__c\",\"left-side-datatype\":\"picklist\",\"left-side-type\":\"field-OrderItem\",\"type\":\"SIMPLE\",\"name\":\"Condition 1\"}]}",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 10,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "8e04302e-0b0b-4811-7e8a-ad48569ff3ea",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/8e04302e-0b0b-4811-7e8a-ad48569ff3ea",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "f869003d-fb2e-33f0-e136-5ef6ee4cdb32",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_attr_name\":\"IMSI\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"IMSI\",\"destination_attr_code\":\"B2CCmex_ATTR_IMSI_TECH\",\"source_attr_code\":\"B2CCmex_ATTR_IMSI_CHAR\",\"source_type\":\"Attribute\"},{\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Activation Date\",\"destination_attr_code\":\"B2CCmex_ATTR_ACTIVATION_DATE_TECH\",\"source_field_name\":\"Order.ActivatedDate\",\"source_type\":\"Field\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b4a50c3e-fce2-0d20-e6d2-ddb5da724904",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/b4a50c3e-fce2-0d20-e6d2-ddb5da724904",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "b4a50c3e-fce2-0d20-e6d2-ddb5da724904",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "B2CCmex_SIMCardtoChargingServiceCFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/B2CCmex_SIMCardtoChargingServiceCFS/Product2/b4a50c3e-fce2-0d20-e6d2-ddb5da724904"
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 10,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "42eec2d3-e8da-2328-e31d-b05c0be1a191",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/42eec2d3-e8da-2328-e31d-b05c0be1a191",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "06249e09-55d3-ff22-b231-15f258b6dccc",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_type\":\"Attribute\",\"source_attr_name\":\"International Calling\",\"source_attr_code\":\"B2CCmex_ATTR_INTERNATIONAL_CALLING_FEAT\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"International Calling\",\"destination_attr_code\":\"B2CCmex_ATTR_INTERNATIONALCALLING_TECH\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Roaming\",\"source_attr_code\":\"B2CCmex_ATTR_ROAMING_FEAT\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"International Roaming\",\"destination_attr_code\":\"B2CCmex_ATTR_INT_ROAM\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Caller Id\",\"source_attr_code\":\"B2CCmex_ATTR_CALLER_ID_FEAT\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Caller Id\",\"destination_attr_code\":\"B2CCmex_ATTR_CALLER_ID_TECH\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Voice Mail\",\"source_attr_code\":\"B2CCmex_ATTR_VOICE_MAIL_FEAT\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Voice Mail\",\"destination_attr_code\":\"B2CCmex_ATTR_VOICE_MAIL_TECH\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Adult Filter\",\"source_attr_code\":\"B2CCmex_ATTR_ADULT_FILTER_FEAT\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Adult Filter\",\"destination_attr_code\":\"B2CCmex_ATTR_ADULT_FILTER_TECH\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Call Waiting\",\"source_attr_code\":\"B2CCmex_ATTR_CALL_WAITING_FEAT\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Call Waiting\",\"destination_attr_code\":\"B2CCmex_ATTR_CALL_WAITING_TECH\"},{\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"MSISDN\",\"destination_attr_code\":\"B2CCmex_ATTR_PHONE_NUMBER\",\"source_field_name\":\"%vlocity_namespace%__SubscriptionId__r.%vlocity_namespace%__ServiceIdentifier__c\",\"source_type\":\"Field\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "4def5a99-88c1-e52a-bb07-8027a24de5db",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/4def5a99-88c1-e52a-bb07-8027a24de5db",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "4def5a99-88c1-e52a-bb07-8027a24de5db",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "B2CCmex_MobileServicetoMobileServiceCFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/B2CCmex_MobileServicetoMobileServiceCFS/Product2/4def5a99-88c1-e52a-bb07-8027a24de5db"
+    }
+]

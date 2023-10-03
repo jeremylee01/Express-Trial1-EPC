@@ -1,0 +1,275 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "B2CCmex_ATTR_CONTRACT_TERM": null,
+        "B2CCmex_ATTR_HASDISCOUNT_CHAR": false,
+        "B2CCmex_ATTR_TANGIBLE_CHAR": false
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "B2CCmex_ATC_CHARACTERISTIC",
+                "Name": "ATC_CHARACTERISTIC",
+                "displaySequence": 103,
+                "id": "a0YDn000000kfbPMAQ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0ZDn000000QPyqMAG",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_TANGIBLE_CHAR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 16,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotTranslatable": false,
+                            "label": "Tangible",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": false,
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0ZDn000000QPypMAG",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_HASDISCOUNT_CHAR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 27,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotTranslatable": false,
+                            "label": "HasDiscount",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": false,
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            },
+            {
+                "Code__c": "B2CCmex_ATC_CONTRACT_DETAILS",
+                "Name": "ATC_CONTRACT_DETAILS",
+                "displaySequence": 7020,
+                "id": "a0YDn000000kfbVMAQ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0ZDn000000QPzFMAW",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_CONTRACT_TERM",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Contract Term",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 70,
+                                    "id": "1564dc1c-770f-5432-5fcd-ddfe3b06043d",
+                                    "label": "No Term",
+                                    "name": "1564dc1c-770f-5432-5fcd-ddfe3b06043d",
+                                    "readonly": false,
+                                    "value": "No Term"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "52533583-58b5-be33-72df-8260d3808b1a",
+                                    "label": "24 Months",
+                                    "name": "52533583-58b5-be33-72df-8260d3808b1a",
+                                    "readonly": false,
+                                    "value": "24 Months"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "9e9aa1a5-439c-a4b1-3c92-8bd9a2970ea9",
+                                    "label": "6 Months",
+                                    "name": "9e9aa1a5-439c-a4b1-3c92-8bd9a2970ea9",
+                                    "readonly": false,
+                                    "value": "6 Months"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "a7ac19a5-bb6b-ccbf-a08d-720481465288",
+                                    "label": "Month-to-Month",
+                                    "name": "a7ac19a5-bb6b-ccbf-a08d-720481465288",
+                                    "readonly": false,
+                                    "value": "Month-to-Month"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "b8e6084a-667c-f11d-a49c-5195154a861d",
+                                    "label": "3 Months",
+                                    "name": "b8e6084a-667c-f11d-a49c-5195154a861d",
+                                    "readonly": false,
+                                    "value": "3 Months"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "dbfd7589-9af1-9953-4162-f03fb41e3fa1",
+                                    "label": "12 Months",
+                                    "name": "dbfd7589-9af1-9953-4162-f03fb41e3fa1",
+                                    "readonly": false,
+                                    "value": "12 Months"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "fb98440e-b163-2948-4dd4-0d52cbfca709",
+                                    "label": "36 Months",
+                                    "name": "fb98440e-b163-2948-4dd4-0d52cbfca709",
+                                    "readonly": false,
+                                    "value": "36 Months"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DecompositionRelationship__c": "TV-Plan-Class_DecompositionRelationships.json",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2022-02-01",
+    "%vlocity_namespace%__EndDate__c": "2040-01-01",
+    "%vlocity_namespace%__EndOfLifeDate__c": "2040-01-01T08:00:00.000Z",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2022-02-01T08:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "3c4e73d0-3ffe-f1e4-8621-55a26c031703",
+    "%vlocity_namespace%__GlobalKey__c": "a990b337-57c9-b1f9-a90c-b7e1549a174b",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": false,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "Draft",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "184438e37fc77e579ae8795b41e1565a",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/184438e37fc77e579ae8795b41e1565a",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "TV  Plan Object Type",
+    "%vlocity_namespace%__OrchestrationScenario__c": "TV-Plan-Class_OrchestrationScenarios.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "TV-Plan-Class_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "2040-01-01T08:00:00.000Z",
+    "%vlocity_namespace%__SellingStartDate__c": "2022-02-01T08:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "Simple",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Plan",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "2040-01-01T08:00:00.000Z",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "2022-02-01T08:00:00.000Z",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "Internet",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "TV Plan Class",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "ProductCode": "B2CCmex_TV_PLAN_CLASS",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/a990b337-57c9-b1f9-a90c-b7e1549a174b"
+}

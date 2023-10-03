@@ -1,0 +1,29 @@
+{
+    "%vlocity_namespace%__DependencyItemDefinitionId__c": {
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "B2CCmex_ChargingSystemDevicePlanDefinition",
+        "Name": "B2CCmex_ChargingSystemCFSUpdateDeviceItemDefinition",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/B2CCmex_ChargingSystemCFSUpdateDeviceItemDefinition/%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_ChargingSystemDevicePlanDefinition",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationItemDefinition__c"
+    },
+    "%vlocity_namespace%__DependencyPlanDefinitionId__c": {
+        "Name": "B2CCmex_ChargingSystemDevicePlanDefinition",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_ChargingSystemDevicePlanDefinition",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+    },
+    "%vlocity_namespace%__DependencyType__c": "Should Be Processed Before",
+    "%vlocity_namespace%__GlobalKey__c": "1b3c669a-81a2-76d1-3cc2-f0c3d6afac6d",
+    "%vlocity_namespace%__OrchestrationItemDefinitionId__c": {
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "B2CCmex_MobileServiceProvisioningPlanDefinition",
+        "Name": "B2CCmex_MobileServiceUpdateServicesItemDefinition",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/B2CCmex_MobileServiceUpdateServicesItemDefinition/%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_MobileServiceProvisioningPlanDefinition",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationItemDefinition__c"
+    },
+    "%vlocity_namespace%__Scope__c": "Global",
+    "Name": "B2CCmex_MobileServicesItemPreceedsModifyDevice",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationDependencyDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationDependencyDefinition__c/1b3c669a-81a2-76d1-3cc2-f0c3d6afac6d"
+}

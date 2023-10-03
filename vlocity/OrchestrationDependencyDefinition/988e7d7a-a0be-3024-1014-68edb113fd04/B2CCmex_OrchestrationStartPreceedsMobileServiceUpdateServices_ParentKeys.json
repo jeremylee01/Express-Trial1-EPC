@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/B2CCmex_MobileServiceUpdateServicesItemDefinition_B2CCmex_MobileServiceProvisioningPlanDefinition",
+    "OrchestrationItemDefinition/B2CCmex_OrchestrationStartItemDefinition_B2CCmex_CommenceOrchestrationPlanDefinition",
+    "OrchestrationPlanDefinition/B2CCmex_MobileServiceProvisioningPlanDefinition"
+]

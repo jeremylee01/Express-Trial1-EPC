@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/B2CCmex_ChargingSystemCFSUpdateDeviceItemDefinition_B2CCmex_ChargingSystemDevicePlanDefinition",
+    "OrchestrationItemDefinition/B2CCmex_MobileServiceUpdateServicesItemDefinition_B2CCmex_MobileServiceProvisioningPlanDefinition",
+    "OrchestrationPlanDefinition/B2CCmex_ChargingSystemDevicePlanDefinition"
+]

@@ -1,0 +1,9 @@
+{
+    "$": "Text",
+    "ContactEmail": "Text",
+    "ContactPhoneNumber": "Text",
+    "ExternalId": "Text",
+    "FirstName": "Text",
+    "LastName": "Text",
+    "Status": "Text"
+}

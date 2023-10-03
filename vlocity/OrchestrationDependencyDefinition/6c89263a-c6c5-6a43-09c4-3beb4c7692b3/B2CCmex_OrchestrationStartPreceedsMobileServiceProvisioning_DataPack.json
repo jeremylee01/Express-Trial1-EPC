@@ -1,0 +1,29 @@
+{
+    "%vlocity_namespace%__DependencyItemDefinitionId__c": {
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "B2CCmex_MobileServiceProvisioningPlanDefinition",
+        "Name": "B2CCmex_MobileServiceProvisioningItemDefinition",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/B2CCmex_MobileServiceProvisioningItemDefinition/%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_MobileServiceProvisioningPlanDefinition",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationItemDefinition__c"
+    },
+    "%vlocity_namespace%__DependencyPlanDefinitionId__c": {
+        "Name": "B2CCmex_MobileServiceProvisioningPlanDefinition",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_MobileServiceProvisioningPlanDefinition",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+    },
+    "%vlocity_namespace%__DependencyType__c": "Should Be Processed Before",
+    "%vlocity_namespace%__GlobalKey__c": "6c89263a-c6c5-6a43-09c4-3beb4c7692b3",
+    "%vlocity_namespace%__OrchestrationItemDefinitionId__c": {
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "B2CCmex_CommenceOrchestrationPlanDefinition",
+        "Name": "B2CCmex_OrchestrationStartItemDefinition",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/B2CCmex_OrchestrationStartItemDefinition/%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_CommenceOrchestrationPlanDefinition",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationItemDefinition__c"
+    },
+    "%vlocity_namespace%__Scope__c": "Main Order Item",
+    "Name": "B2CCmex_OrchestrationStartPreceedsMobileServiceProvisioning",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationDependencyDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationDependencyDefinition__c/6c89263a-c6c5-6a43-09c4-3beb4c7692b3"
+}

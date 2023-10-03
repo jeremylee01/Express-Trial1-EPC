@@ -1,0 +1,12 @@
+[
+    "AttributeCategory/B2CCmex_ATC_CHARACTERISTIC",
+    "AttributeCategory/B2CCmex_ATC_HANDSET",
+    "AttributeCategory/B2CCmex_ATC_OTHER_DETAILS",
+    "AttributeCategory/B2CCmex_ATTRIBUTE_CATEGORY_CPE_DETAILS",
+    "ObjectClass/63ba6ae5f8c257f7cdccc385d2a85dca",
+    "PriceList/VPL_PRICELIST_B2C",
+    "Product2/7957ff94-2bdd-7c89-e084-85d06c08592d",
+    "VlocityPicklist/2b03038d-8974-5478-5200-27507e90103f",
+    "VlocityPicklist/d9037c05-e086-88bc-2f33-d2017bb9eef0",
+    "VlocityPicklist/ee513711-846b-7a79-3531-d4682e19c81e"
+]

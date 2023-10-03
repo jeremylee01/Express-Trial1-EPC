@@ -1,0 +1,15 @@
+[
+    {
+        "%vlocity_namespace%__DestinationFieldApiName__c": "%vlocity_namespace%__EffectiveBaseOneTimeCharge__c",
+        "%vlocity_namespace%__DestinationSObjectType__c": "Order",
+        "%vlocity_namespace%__PricingVariableId__c": {
+            "%vlocity_namespace%__Code__c": "SFDC_EFF_TOT_BASE_ONE_TIME_CHRG",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__PricingVariable__c/SFDC_EFF_TOT_BASE_ONE_TIME_CHRG",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PricingVariable__c"
+        },
+        "Name": "Effective Total: Base One Time Charges",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PricingVariableBinding__c"
+    }
+]

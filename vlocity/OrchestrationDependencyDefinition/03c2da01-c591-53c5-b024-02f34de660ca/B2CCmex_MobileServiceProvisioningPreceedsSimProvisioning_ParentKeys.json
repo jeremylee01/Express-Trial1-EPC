@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/B2CCmex_MobileServiceProvisioningItemDefinition_B2CCmex_MobileServiceProvisioningPlanDefinition",
+    "OrchestrationItemDefinition/B2CCmex_SimCardAddProvisioningItemDefinition_B2CCmex_SimProvisioningPlanDefinition",
+    "OrchestrationPlanDefinition/B2CCmex_SimProvisioningPlanDefinition"
+]

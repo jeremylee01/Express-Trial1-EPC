@@ -1,0 +1,29 @@
+{
+    "%vlocity_namespace%__DependencyItemDefinitionId__c": {
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "B2CCmex_ChargingSystemOfferPlanDefinition",
+        "Name": "B2CCmex_PurchaseOfferItemDefinition",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/B2CCmex_PurchaseOfferItemDefinition/%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_ChargingSystemOfferPlanDefinition",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationItemDefinition__c"
+    },
+    "%vlocity_namespace%__DependencyPlanDefinitionId__c": {
+        "Name": "B2CCmex_ChargingSystemOfferPlanDefinition",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_ChargingSystemOfferPlanDefinition",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+    },
+    "%vlocity_namespace%__DependencyType__c": "Should Be Processed Before",
+    "%vlocity_namespace%__GlobalKey__c": "834184a9-7d84-0f8f-2b08-7692871c1add",
+    "%vlocity_namespace%__OrchestrationItemDefinitionId__c": {
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "B2CCmex_SimCardChargingSystemPlanDefinition",
+        "Name": "B2CCmex_SimCardAddChargingSystemItemDefinition",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/B2CCmex_SimCardAddChargingSystemItemDefinition/%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_SimCardChargingSystemPlanDefinition",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationItemDefinition__c"
+    },
+    "%vlocity_namespace%__Scope__c": "Global",
+    "Name": "B2CCmex_SimCardAddChargingSystemPreceedsPurchaseOffer",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationDependencyDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationDependencyDefinition__c/834184a9-7d84-0f8f-2b08-7692871c1add"
+}

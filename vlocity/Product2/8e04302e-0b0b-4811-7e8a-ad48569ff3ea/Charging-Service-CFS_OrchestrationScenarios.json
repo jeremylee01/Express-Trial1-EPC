@@ -1,0 +1,74 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "37ac6ce9-9649-d1cd-605a-816d7948f041",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "B2CCmex_ChargingSystemOfferPlanDefinition",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_ChargingSystemOfferPlanDefinition",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "8e04302e-0b0b-4811-7e8a-ad48569ff3ea",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/8e04302e-0b0b-4811-7e8a-ad48569ff3ea",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "8e04302e-0b0b-4811-7e8a-ad48569ff3ea",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "B2CCmex_ChargingSystemOfferScenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/B2CCmex_ChargingSystemOfferScenario/37ac6ce9-9649-d1cd-605a-816d7948f041/Product2/8e04302e-0b0b-4811-7e8a-ad48569ff3ea"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify;Disconnect;Suspend;Resume",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "b5b64da7-c13f-0a9f-7826-a7ce822e408a",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "B2CCmex_UpdateCRMPlanDefinition",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_UpdateCRMPlanDefinition",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "8e04302e-0b0b-4811-7e8a-ad48569ff3ea",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/8e04302e-0b0b-4811-7e8a-ad48569ff3ea",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "8e04302e-0b0b-4811-7e8a-ad48569ff3ea",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "B2CCmex_UpdateCRMScenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/B2CCmex_UpdateCRMScenario/b5b64da7-c13f-0a9f-7826-a7ce822e408a/Product2/8e04302e-0b0b-4811-7e8a-ad48569ff3ea"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Modify;Disconnect;Suspend;Resume",
+        "%vlocity_namespace%__ConditionData__c": "{\"singleconditions\":[{\"right-side\":\"Modify\",\"right-side-type\":\"value\",\"op\":\"=\",\"left-side\":\"%vlocity_namespace%__Action__c\",\"left-side-datatype\":\"picklist\",\"left-side-type\":\"field-FRLine\",\"type\":\"SIMPLE\",\"name\":\"Condition 1\"},{\"right-side\":\"Change Number\",\"right-side-type\":\"value\",\"op\":\"=\",\"left-side\":\"%vlocity_namespace%__SubAction__c\",\"left-side-datatype\":\"picklist\",\"left-side-type\":\"field-FRLine\",\"type\":\"SIMPLE\",\"name\":\"Condition 1\"}],\"type\":\"AND\",\"name\":\"Parent Condition\"}",
+        "%vlocity_namespace%__GlobalKey__c": "05272f2e-058a-1e5b-e456-61777472f2bb",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "B2CCmex_ChargingSystemDevicePlanDefinition",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_ChargingSystemDevicePlanDefinition",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "8e04302e-0b0b-4811-7e8a-ad48569ff3ea",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/8e04302e-0b0b-4811-7e8a-ad48569ff3ea",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "8e04302e-0b0b-4811-7e8a-ad48569ff3ea",
+        "%vlocity_namespace%__SubAction__c": "Change Number",
+        "Name": "B2CCmex_ChargingSystemDeviceScenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/B2CCmex_ChargingSystemDeviceScenario/05272f2e-058a-1e5b-e456-61777472f2bb/Product2/8e04302e-0b0b-4811-7e8a-ad48569ff3ea"
+    }
+]

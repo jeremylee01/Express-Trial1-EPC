@@ -1,0 +1,559 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Handset-PS_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "B2CCmex_ATTR_HASDISCOUNT_CHAR": false,
+        "B2CCmex_ATTR_IMEI_HANDSET": null,
+        "B2CCmex_ATTR_PAYMENT_TERM": "One-Time",
+        "B2CCmex_ATTR_SERIAL_NUMBER": null,
+        "B2CCmex_ATTR_TANGIBLE_CHAR": false,
+        "VEPC_ATTR_MANUFACTURER": null,
+        "VPL_ATTR_HANDSET_MODEL": null,
+        "VPL_ATTR_HANDSET_STORAGE_CAPACITY": null,
+        "VPL_PICKLIST_HANDSET_COLOR": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "B2CCmex_ATC_CHARACTERISTIC",
+                "Name": "ATC_CHARACTERISTIC",
+                "displaySequence": 103,
+                "id": "a0YDn000000kfbPMAQ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0ZDn000000QPyqMAG",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_TANGIBLE_CHAR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 16,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotTranslatable": false,
+                            "label": "Tangible",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": false,
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0ZDn000000QPypMAG",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_HASDISCOUNT_CHAR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 27,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotTranslatable": false,
+                            "label": "HasDiscount",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": false,
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            },
+            {
+                "Code__c": "B2CCmex_ATC_HANDSET",
+                "Name": "ATC_HANDSET",
+                "displaySequence": 912,
+                "id": "a0YDn000000kfbSMAQ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0ZDn000000QPysMAG",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_PAYMENT_TERM",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 10,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Payment Term",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": "One-Time",
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0ZDn000000QPytMAG",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_SERIAL_NUMBER",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 30,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Serial Number",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0ZDn000000QPyrMAG",
+                            "cloneable": true,
+                            "code": "B2CCmex_ATTR_IMEI_HANDSET",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 40,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "IMEI",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 3
+                }
+            },
+            {
+                "Code__c": "B2CCmex_ATC_OTHER_DETAILS",
+                "Name": "ATC_OTHER_DETAILS",
+                "displaySequence": 6210,
+                "id": "a0YDn000000kfbTMAQ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0ZDn000000QPyvMAG",
+                            "cloneable": true,
+                            "code": "VPL_ATTR_HANDSET_MODEL",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Handset Model",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "1383a3ca-d1b2-4c90-c5c9-b69a7cfa2f10",
+                                    "label": "Galaxy M01",
+                                    "name": "1383a3ca-d1b2-4c90-c5c9-b69a7cfa2f10",
+                                    "readonly": false,
+                                    "value": "Galaxy M01"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "341591d4-da04-ed86-6531-aa980a48d3ad",
+                                    "label": "iPhone SE",
+                                    "name": "341591d4-da04-ed86-6531-aa980a48d3ad",
+                                    "readonly": false,
+                                    "value": "iPhone SE"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "514508f8-63a3-42fb-2665-abea9d30ac84",
+                                    "label": "iPhone XR",
+                                    "name": "514508f8-63a3-42fb-2665-abea9d30ac84",
+                                    "readonly": false,
+                                    "value": "iPhone XR"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "8a63fa12-31e9-5a99-9701-b32815f8d6c0",
+                                    "label": "Galaxy S20",
+                                    "name": "8a63fa12-31e9-5a99-9701-b32815f8d6c0",
+                                    "readonly": false,
+                                    "value": "Galaxy S20"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 70,
+                                    "id": "98730b22-f883-6023-3814-dd70a277cbac",
+                                    "label": "iPhone 12",
+                                    "name": "98730b22-f883-6023-3814-dd70a277cbac",
+                                    "readonly": false,
+                                    "value": "iPhone 12"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "da590336-1014-36e2-a0dd-533170512fa4",
+                                    "label": "Galaxy J2 Core",
+                                    "name": "da590336-1014-36e2-a0dd-533170512fa4",
+                                    "readonly": false,
+                                    "value": "Galaxy J2 Core"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "f6d691c8-1728-8f22-c0f0-e58135e1d597",
+                                    "label": "iPhone 11 Pro",
+                                    "name": "f6d691c8-1728-8f22-c0f0-e58135e1d597",
+                                    "readonly": false,
+                                    "value": "iPhone 11 Pro"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0ZDn000000QPyuMAG",
+                            "cloneable": true,
+                            "code": "VPL_PICKLIST_HANDSET_COLOR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 30,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Handset Color",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "39da110f-f07d-36de-73d7-8aa39b62cc48",
+                                    "label": "Black",
+                                    "name": "39da110f-f07d-36de-73d7-8aa39b62cc48",
+                                    "readonly": false,
+                                    "value": "Black"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "5062f2cf-7162-84fa-c5db-12fc0468c74b",
+                                    "label": "White",
+                                    "name": "5062f2cf-7162-84fa-c5db-12fc0468c74b",
+                                    "readonly": false,
+                                    "value": "White"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "55865f50-922c-97a3-ba76-b05963a8df5a",
+                                    "label": "Green",
+                                    "name": "55865f50-922c-97a3-ba76-b05963a8df5a",
+                                    "readonly": false,
+                                    "value": "Green"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "59eafbcc-66a4-c58c-b7c4-0e326d6de1d5",
+                                    "label": "Red",
+                                    "name": "59eafbcc-66a4-c58c-b7c4-0e326d6de1d5",
+                                    "readonly": false,
+                                    "value": "Red"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "d0a6d31e-1e7c-957a-6a04-2929433fe4e0",
+                                    "label": "Purple",
+                                    "name": "d0a6d31e-1e7c-957a-6a04-2929433fe4e0",
+                                    "readonly": false,
+                                    "value": "Purple"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "f71b7032-a85c-3243-78f2-991885ad108d",
+                                    "label": "Yellow",
+                                    "name": "f71b7032-a85c-3243-78f2-991885ad108d",
+                                    "readonly": false,
+                                    "value": "Yellow"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0ZDn000000QPywMAG",
+                            "cloneable": true,
+                            "code": "VPL_ATTR_HANDSET_STORAGE_CAPACITY",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 40,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Handset Storage Capacity",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 256,
+                                    "id": "12659453-30af-c166-e487-f74f4866b526",
+                                    "label": "256",
+                                    "name": "12659453-30af-c166-e487-f74f4866b526",
+                                    "readonly": false,
+                                    "value": "256"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "29fa5ab0-b0ee-d851-4875-68160d85142a",
+                                    "label": "64",
+                                    "name": "29fa5ab0-b0ee-d851-4875-68160d85142a",
+                                    "readonly": false,
+                                    "value": "64"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 512,
+                                    "id": "716a8969-ccb2-a526-cfe0-c8d1b723b303",
+                                    "label": "512",
+                                    "name": "716a8969-ccb2-a526-cfe0-c8d1b723b303",
+                                    "readonly": false,
+                                    "value": "512"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 128,
+                                    "id": "92d2bb6e-1a19-8ba1-b926-64c98133b71c",
+                                    "label": "128",
+                                    "name": "92d2bb6e-1a19-8ba1-b926-64c98133b71c",
+                                    "readonly": false,
+                                    "value": "128"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 3
+                }
+            },
+            {
+                "Code__c": "B2CCmex_ATTRIBUTE_CATEGORY_CPE_DETAILS",
+                "Name": "ATC_CPE_DETAILS",
+                "displaySequence": 6230,
+                "id": "a0YDn000000kfbRMAQ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0ZDn000000QPyxMAG",
+                            "cloneable": true,
+                            "code": "VEPC_ATTR_MANUFACTURER",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 80,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Manufacturer",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            }
+        ],
+        "totalSize": 4
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2021-11-01",
+    "%vlocity_namespace%__EndDate__c": "2030-01-30",
+    "%vlocity_namespace%__EndOfLifeDate__c": "2032-01-28T08:00:00.000Z",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2021-11-01T07:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "d336ce72-c800-48f1-154d-133a0536bb8c",
+    "%vlocity_namespace%__GlobalKey__c": "7957ff94-2bdd-7c89-e084-85d06c08592d",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "Draft",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "64313afb61a6afa3e75aab1ed6da93b9",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/64313afb61a6afa3e75aab1ed6da93b9",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Handset Object Type",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "Handset-PS_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "2030-01-30T08:00:00.000Z",
+    "%vlocity_namespace%__SellingStartDate__c": "2021-11-01T07:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "Simple",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "None",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Handset",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "Handset product spec",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "Handsets",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Handset PS",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "ProductCode": "B2CCmex_HANDSET_PS",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/7957ff94-2bdd-7c89-e084-85d06c08592d"
+}

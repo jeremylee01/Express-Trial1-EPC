@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__CatalogCode__c": "ShippingFees",
+    "%vlocity_namespace%__CatalogProductRelationship__c": "Shipping-Fees_CatalogProductRelationships.json",
+    "%vlocity_namespace%__DefaultPriceListId__c": {
+        "%vlocity_namespace%__Code__c": "VPL_PRICELIST_B2C",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceList__c/VPL_PRICELIST_B2C",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PriceList__c"
+    },
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__EndDateTime__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "e2eb1ba2-5a24-f2af-dc33-4d21cfaded49",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsCatalogRoot__c": false,
+    "%vlocity_namespace%__IsDefault__c": false,
+    "%vlocity_namespace%__SourceType__c": "Internal - Original Source",
+    "%vlocity_namespace%__StartDateTime__c": "",
+    "%vlocity_namespace%__VendorAccount__c": "",
+    "Name": "Shipping Fees",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Catalog__c/e2eb1ba2-5a24-f2af-dc33-4d21cfaded49"
+}

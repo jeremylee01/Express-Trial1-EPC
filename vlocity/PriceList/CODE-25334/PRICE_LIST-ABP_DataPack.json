@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__Code__c": "CODE-25334",
+    "%vlocity_namespace%__CountOfActiveEntries__c": 10,
+    "%vlocity_namespace%__CurrencyCode__c": "USD",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__EffectiveFromDate__c": "2018-08-17T17:43:07.000Z",
+    "%vlocity_namespace%__EffectiveUntilDate__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "97854f05-0414-bcd5-ea35-186bc3e81a9e",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__LoyaltyCode__c": "PTS",
+    "%vlocity_namespace%__ParentPriceListId__c": "",
+    "%vlocity_namespace%__Pricebook2Id__c": {
+        "Name": "PRICEBOOK-ABP",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Pricebook2/PRICEBOOK-ABP",
+        "VlocityRecordSObjectType": "Pricebook2"
+    },
+    "%vlocity_namespace%__PricingElement__c": "PRICE_LIST-ABP_PricingElements.json",
+    "%vlocity_namespace%__Sequence__c": "",
+    "Name": "PRICE_LIST-ABP",
+    "RecordTypeId": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__PriceList__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__PriceList__c/CODE-25334"
+}

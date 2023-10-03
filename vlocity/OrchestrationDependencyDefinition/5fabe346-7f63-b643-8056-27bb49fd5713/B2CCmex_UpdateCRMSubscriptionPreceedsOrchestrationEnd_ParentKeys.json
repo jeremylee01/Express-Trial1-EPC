@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/B2CCmex_OrchestrationEndItemDefinition_B2CCmex_CommenceOrchestrationPlanDefinition",
+    "OrchestrationItemDefinition/B2CCmex_UpdateCRMSubscriptionItemDefinition_B2CCmex_UpdateCRMPlanDefinition",
+    "OrchestrationPlanDefinition/B2CCmex_CommenceOrchestrationPlanDefinition"
+]

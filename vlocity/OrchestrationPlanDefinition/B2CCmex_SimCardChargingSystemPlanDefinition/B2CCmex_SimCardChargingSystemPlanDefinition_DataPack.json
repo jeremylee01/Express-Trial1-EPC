@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "7cf4dc06-c386-9c56-f6f1-ee6fbb5f7af3",
+    "%vlocity_namespace%__IsSchedulingEnabled__c": false,
+    "%vlocity_namespace%__SchedulingExpirationIntervalSeconds__c": "",
+    "%vlocity_namespace%__Scope__c": "Global",
+    "%vlocity_namespace%__ShowOrder__c": "",
+    "Name": "B2CCmex_SimCardChargingSystemPlanDefinition",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_SimCardChargingSystemPlanDefinition"
+}

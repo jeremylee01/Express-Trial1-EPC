@@ -1,0 +1,15 @@
+[
+    {
+        "%vlocity_namespace%__DestinationFieldApiName__c": "%vlocity_namespace%__BaseOneTimeTotal__c",
+        "%vlocity_namespace%__DestinationSObjectType__c": "OrderItem",
+        "%vlocity_namespace%__PricingVariableId__c": {
+            "%vlocity_namespace%__Code__c": "SFDC_BASE_ONE_TIME_TOTAL",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__PricingVariable__c/SFDC_BASE_ONE_TIME_TOTAL",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PricingVariable__c"
+        },
+        "Name": "Base One Time Total - OrderItem",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PricingVariableBinding__c"
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 10,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "8e04302e-0b0b-4811-7e8a-ad48569ff3ea",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/8e04302e-0b0b-4811-7e8a-ad48569ff3ea",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "8e9c0382-3900-780d-82a5-f8ee66550f74",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_type\":\"Field\",\"source_field_name\":\"%vlocity_namespace%__SubscriptionId__r.%vlocity_namespace%__SubscriptionNumber__c\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"SubscriberId\",\"destination_attr_code\":\"B2CCmex_ATTR_SUBSCRIBER_ID\"},{\"source_type\":\"Field\",\"source_field_name\":\"Order.ActivatedDate\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Activation Date\",\"destination_attr_code\":\"B2CCmex_ATTR_ACTIVATION_DATE_TECH\"},{\"source_type\":\"Field\",\"source_field_name\":\"%vlocity_namespace%__Product2Id__r.ExternalId\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Product Code\",\"destination_attr_code\":\"B2CCmex_ATTR_PRODUCT_CODE\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "588af937-651d-32da-eb04-199edeaf9c34",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/588af937-651d-32da-eb04-199edeaf9c34",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "588af937-651d-32da-eb04-199edeaf9c34",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "B2CCmex_PrepaidClasstoChargingServiceCFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/B2CCmex_PrepaidClasstoChargingServiceCFS/Product2/588af937-651d-32da-eb04-199edeaf9c34"
+    }
+]

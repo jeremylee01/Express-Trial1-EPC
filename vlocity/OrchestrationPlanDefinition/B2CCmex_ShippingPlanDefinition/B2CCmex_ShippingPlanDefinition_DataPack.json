@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "8b029b41-1084-bc05-c2d2-d774548a11bb",
+    "%vlocity_namespace%__IsSchedulingEnabled__c": false,
+    "%vlocity_namespace%__SchedulingExpirationIntervalSeconds__c": "",
+    "%vlocity_namespace%__Scope__c": "Global",
+    "%vlocity_namespace%__ShowOrder__c": "",
+    "Name": "B2CCmex_ShippingPlanDefinition",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_ShippingPlanDefinition"
+}

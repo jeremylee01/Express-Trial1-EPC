@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "02c09f8f-9134-1029-74e9-1e3fdc686b7a",
+    "%vlocity_namespace%__IsSchedulingEnabled__c": false,
+    "%vlocity_namespace%__SchedulingExpirationIntervalSeconds__c": "",
+    "%vlocity_namespace%__Scope__c": "Global",
+    "%vlocity_namespace%__ShowOrder__c": "",
+    "Name": "B2CCmex_ChargingSystemDevicePlanDefinition",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_ChargingSystemDevicePlanDefinition"
+}

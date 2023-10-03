@@ -1,0 +1,26 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "faf935a2-fa1b-d344-a2ed-18479bcde98c",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "B2CCmex_MobileServiceProvisioningPlanDefinition",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_MobileServiceProvisioningPlanDefinition",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "42eec2d3-e8da-2328-e31d-b05c0be1a191",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/42eec2d3-e8da-2328-e31d-b05c0be1a191",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "42eec2d3-e8da-2328-e31d-b05c0be1a191",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "B2CCmex_MobileServiceProvisioningScenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/B2CCmex_MobileServiceProvisioningScenario/faf935a2-fa1b-d344-a2ed-18479bcde98c/Product2/42eec2d3-e8da-2328-e31d-b05c0be1a191"
+    }
+]

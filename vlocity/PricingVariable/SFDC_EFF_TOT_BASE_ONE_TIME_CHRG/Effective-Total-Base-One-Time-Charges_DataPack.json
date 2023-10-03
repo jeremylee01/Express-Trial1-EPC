@@ -1,0 +1,27 @@
+{
+    "%vlocity_namespace%__AdjustmentMethod__c": "",
+    "%vlocity_namespace%__Aggregation__c": "Quantity",
+    "%vlocity_namespace%__AppliesToVariableId__c": {
+        "%vlocity_namespace%__Code__c": "SFDC_BASE_ONE_TIME_TOTAL",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PricingVariable__c/SFDC_BASE_ONE_TIME_TOTAL",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PricingVariable__c"
+    },
+    "%vlocity_namespace%__AppliesTo__c": "",
+    "%vlocity_namespace%__ChargeType__c": "One-time",
+    "%vlocity_namespace%__Code__c": "SFDC_EFF_TOT_BASE_ONE_TIME_CHRG",
+    "%vlocity_namespace%__CurrencyType__c": "Currency",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "a1184f6b-29b1-247b-2a73-22739e7b8151",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__PricingVariableBinding__c": "Effective-Total-Base-One-Time-Charges_PricingVariableBindings.json",
+    "%vlocity_namespace%__RecurringFrequency__c": "",
+    "%vlocity_namespace%__Scope__c": "Parent Rollup",
+    "%vlocity_namespace%__SubType__c": "Standard",
+    "%vlocity_namespace%__Type__c": "Price",
+    "%vlocity_namespace%__ValueType__c": "Calculated",
+    "Name": "Effective Total: Base One Time Charges",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__PricingVariable__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__PricingVariable__c/SFDC_EFF_TOT_BASE_ONE_TIME_CHRG"
+}

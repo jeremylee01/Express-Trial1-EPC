@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "3f8f9c65-724c-0ee2-dbcd-3a7bc158f34f",
+    "%vlocity_namespace%__IsSchedulingEnabled__c": false,
+    "%vlocity_namespace%__SchedulingExpirationIntervalSeconds__c": "",
+    "%vlocity_namespace%__Scope__c": "Global",
+    "%vlocity_namespace%__ShowOrder__c": "",
+    "Name": "B2CCmex_SimProvisioningPlanDefinition",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/B2CCmex_SimProvisioningPlanDefinition"
+}

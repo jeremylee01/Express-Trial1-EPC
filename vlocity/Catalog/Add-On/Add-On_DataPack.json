@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__CatalogCode__c": "ADDON",
+    "%vlocity_namespace%__CatalogRelationship__c": "Add-On_CatalogRelationships.json",
+    "%vlocity_namespace%__DefaultPriceListId__c": {
+        "%vlocity_namespace%__Code__c": "VPL_PRICELIST_B2C",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceList__c/VPL_PRICELIST_B2C",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PriceList__c"
+    },
+    "%vlocity_namespace%__Description__c": "ADDON Root catalog",
+    "%vlocity_namespace%__EndDateTime__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "be03bc15-8f67-c5a4-379e-32f4acf3cb96",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsCatalogRoot__c": true,
+    "%vlocity_namespace%__IsDefault__c": false,
+    "%vlocity_namespace%__SourceType__c": "",
+    "%vlocity_namespace%__StartDateTime__c": "",
+    "%vlocity_namespace%__VendorAccount__c": "",
+    "Name": "Add On",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Catalog__c/be03bc15-8f67-c5a4-379e-32f4acf3cb96"
+}

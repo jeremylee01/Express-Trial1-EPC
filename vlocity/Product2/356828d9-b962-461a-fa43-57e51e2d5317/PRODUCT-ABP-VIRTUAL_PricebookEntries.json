@@ -1,0 +1,62 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": 275.76,
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "PRODUCT-ABP-VIRTUAL",
+        "Pricebook2.Name": "PRICEBOOK-ABP",
+        "Pricebook2Id": {
+            "Name": "PRICEBOOK-ABP",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/PRICEBOOK-ABP",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "356828d9-b962-461a-fa43-57e51e2d5317",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "356828d9-b962-461a-fa43-57e51e2d5317",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/356828d9-b962-461a-fa43-57e51e2d5317",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "ABP-VIRTUAL",
+        "UnitPrice": 431.42,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/PRICEBOOK-ABP/Product2/356828d9-b962-461a-fa43-57e51e2d5317"
+    },
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": 509.21,
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "PRODUCT-ABP-VIRTUAL",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "356828d9-b962-461a-fa43-57e51e2d5317",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "356828d9-b962-461a-fa43-57e51e2d5317",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/356828d9-b962-461a-fa43-57e51e2d5317",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "ABP-VIRTUAL",
+        "UnitPrice": 292.58,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/356828d9-b962-461a-fa43-57e51e2d5317"
+    }
+]

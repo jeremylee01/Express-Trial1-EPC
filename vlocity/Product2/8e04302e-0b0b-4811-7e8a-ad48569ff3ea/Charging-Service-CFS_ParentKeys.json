@@ -1,0 +1,7 @@
+[
+    "AttributeCategory/B2CCmex_ATC_TECHNICAL_ATTRIBUTES",
+    "ObjectClass/29ce9af7329b867f298e7da5d5659581",
+    "OrchestrationPlanDefinition/B2CCmex_ChargingSystemDevicePlanDefinition",
+    "OrchestrationPlanDefinition/B2CCmex_ChargingSystemOfferPlanDefinition",
+    "OrchestrationPlanDefinition/B2CCmex_UpdateCRMPlanDefinition"
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "%vlocity_namespace%__DestinationFieldApiName__c": "%vlocity_namespace%__BaseRecurringTotal__c",
+        "%vlocity_namespace%__DestinationSObjectType__c": "OrderItem",
+        "%vlocity_namespace%__PricingVariableId__c": {
+            "%vlocity_namespace%__Code__c": "SFDC_BASE_MNTH_REC_TOTAL",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__PricingVariable__c/SFDC_BASE_MNTH_REC_TOTAL",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PricingVariable__c"
+        },
+        "Name": "Base Recurring Total - OrderItem",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PricingVariableBinding__c"
+    }
+]

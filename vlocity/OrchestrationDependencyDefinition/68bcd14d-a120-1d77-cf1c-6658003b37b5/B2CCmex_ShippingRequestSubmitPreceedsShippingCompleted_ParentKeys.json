@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/B2CCmex_ShippingCompletedItemDefinition_B2CCmex_ShippingPlanDefinition",
+    "OrchestrationItemDefinition/B2CCmex_ShippingRequestSubmitItemDefinition_B2CCmex_ShippingPlanDefinition",
+    "OrchestrationPlanDefinition/B2CCmex_ShippingPlanDefinition"
+]

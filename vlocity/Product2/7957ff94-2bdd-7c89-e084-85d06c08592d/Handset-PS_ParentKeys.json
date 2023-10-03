@@ -1,0 +1,10 @@
+[
+    "AttributeCategory/B2CCmex_ATC_CHARACTERISTIC",
+    "AttributeCategory/B2CCmex_ATC_HANDSET",
+    "AttributeCategory/B2CCmex_ATC_OTHER_DETAILS",
+    "AttributeCategory/B2CCmex_ATTRIBUTE_CATEGORY_CPE_DETAILS",
+    "ObjectClass/64313afb61a6afa3e75aab1ed6da93b9",
+    "VlocityPicklist/2b03038d-8974-5478-5200-27507e90103f",
+    "VlocityPicklist/d9037c05-e086-88bc-2f33-d2017bb9eef0",
+    "VlocityPicklist/ee513711-846b-7a79-3531-d4682e19c81e"
+]
