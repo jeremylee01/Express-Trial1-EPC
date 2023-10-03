@@ -503,7 +503,7 @@
     "%vlocity_namespace%__DefaultImageId__c": "",
     "%vlocity_namespace%__EffectiveDate__c": "2021-11-01",
     "%vlocity_namespace%__EndDate__c": "2030-01-31",
-    "%vlocity_namespace%__EndOfLifeDate__c": "2031-01-28T08:00:00.000Z",
+    "%vlocity_namespace%__EndOfLifeDate__c": "2031-01-31T08:00:00.000Z",
     "%vlocity_namespace%__FulfilmentStartDate__c": "2021-11-01T07:00:00.000Z",
     "%vlocity_namespace%__GlobalGroupKey__c": "b09e8496-b11c-f563-19d7-5386f9c3f4bb",
     "%vlocity_namespace%__GlobalKey__c": "2878c238-e397-7c88-f6e4-de460f8a5596",
